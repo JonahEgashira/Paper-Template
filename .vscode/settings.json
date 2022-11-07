@@ -1,0 +1,37 @@
+{
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        // "*.log"
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "lualatex",
+            "tools": [
+                "lualatex"
+            ]
+        },
+    ],
+    // Build commands
+    "latex-workshop.latex.tools": [
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-file-line-error",
+                "-interaction=nonstopmode",
+                "-halt-on-error",
+                "--output-directory=%DIR%/build",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+    ],
+    "[latex]": {
+        "editor.formatOnSave": false,
+    },
+}
