@@ -8,7 +8,9 @@
         "*.aux",
         "*.fdb_latexmk",
         "*.fls",
-        "*.log"
+        "*.log",
+        "*.bbl",
+        "*.blg"
     ],
     "latex-workshop.latex.recipes": [
         {

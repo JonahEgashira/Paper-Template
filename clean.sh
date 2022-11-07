@@ -9,3 +9,5 @@ rm ./build/*.aux
 rm ./build/*.pdf
 rm ./build/*.fdb_latexmk
 rm ./build/*.fls
+rm ./build/*.bbl
+rm ./build/*.blg

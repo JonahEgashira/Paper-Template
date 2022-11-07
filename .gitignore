@@ -1,4 +1,6 @@
 *.aux
 *.log
-*.png
-./build/sections
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
