@@ -32,6 +32,6 @@
         },
     ],
     "[latex]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
     },
 }
