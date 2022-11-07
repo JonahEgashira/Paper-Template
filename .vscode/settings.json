@@ -6,21 +6,23 @@
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
+        "*.fdb_latexmk",
+        "*.fls",
         "*.log"
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "lualatex",
+            "name": "latexmk",
             "tools": [
-                "lualatex"
+                "latexmk"
             ]
         },
     ],
     // Build commands
     "latex-workshop.latex.tools": [
         {
-            "name": "lualatex",
-            "command": "lualatex",
+            "name": "latexmk",
+            "command": "latexmk",
             "args": [
                 "-file-line-error",
                 "-interaction=nonstopmode",
