@@ -13,3 +13,5 @@ rm ./sections/*.pdf
 rm ./sections/build/*.aux
 rm ./sections/build/*.log
 rm ./sections/build/*.pdf
+
+rm -rf ./build/sections

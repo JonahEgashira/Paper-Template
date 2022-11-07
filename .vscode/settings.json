@@ -6,7 +6,7 @@
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
-        // "*.log"
+        "*.log"
     ],
     "latex-workshop.latex.recipes": [
         {
@@ -32,6 +32,6 @@
         },
     ],
     "[latex]": {
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": true,
     },
 }
