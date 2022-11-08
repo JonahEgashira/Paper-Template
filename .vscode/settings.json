@@ -10,7 +10,9 @@
         "*.fls",
         "*.log",
         "*.bbl",
-        "*.blg"
+        "*.blg",
+        "*.bcf",
+        "*.xml",
     ],
     "latex-workshop.latex.recipes": [
         {

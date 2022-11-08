@@ -11,3 +11,5 @@ rm ./build/*.fdb_latexmk
 rm ./build/*.fls
 rm ./build/*.bbl
 rm ./build/*.blg
+rm ./build/*.bcf
+rm ./build/*.xml
