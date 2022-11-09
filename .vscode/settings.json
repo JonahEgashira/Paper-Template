@@ -13,6 +13,8 @@
         "*.blg",
         "*.bcf",
         "*.xml",
+        "*.out",
+        "*.toc",
     ],
     "latex-workshop.latex.recipes": [
         {

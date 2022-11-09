@@ -13,3 +13,5 @@ rm ./build/*.bbl
 rm ./build/*.blg
 rm ./build/*.bcf
 rm ./build/*.xml
+rm ./build/*.out
+rm ./build/*.toc
