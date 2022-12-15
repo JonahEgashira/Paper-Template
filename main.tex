@@ -1,4 +1,4 @@
-\documentclass[a4paper]{ltjarticle}
+\documentclass[autodetect-engine, dvi=dvipdfmx, a4paper, base=11pt, jafont=auto, ja=standard]{bxjsreport}
 \input{preamble}
 \usepackage{subfiles}
 \title{\titleen}
@@ -13,10 +13,10 @@
 \tableofcontents\thispagestyle{plain}
 \clearpage
 
-\subfile{sections/abstract_en}
-\subfile{sections/abstract_jp}
-\subfile{sections/01_introduction}
-\subfile{sections/02_background}
+\subfile{chapters/abstract_en}
+\subfile{chapters/abstract_jp}
+\subfile{chapters/01_introduction}
+\subfile{chapters/02_background}
 % Add more sections below
 
 \clearpage

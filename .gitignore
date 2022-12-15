@@ -8,3 +8,5 @@
 *.bcf
 *.out
 *.toc
+
+.DS_Store

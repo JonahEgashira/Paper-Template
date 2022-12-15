@@ -2,7 +2,7 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/build/%RELATIVE_DIR%/",
-    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
